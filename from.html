@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+<body style="background-color: rgb(235, 130, 130);">
+<fieldset style="text-align: center;">
+<legend>
+    <h1 style="text-align: center;">Application form</h1>
+</legend>
+<form method="get"></form>
+    <form>
+
+    <label for="name">Name: </label>
+    <input type="textbox" placeholder="Your name" size="30"><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" placeholder="Your email" size="30"><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" size="30"><br><br>
+
+    <label for="phone">Phone Number:</label>
+    <input type="number" size="30"><br><br>
+
+    <label for="gender" name="gender">Gender:</label>
+    <input type="radio" id="gender" value="male" name="request type">Male 
+    <input type="radio" id="gender" value="Female" name="request type">Female 
+    <input type="radio" id="gender" value="Others" name="request type">Others<br><br>
+
+    <label for="language">Language:</label>
+    <select name="lang" id="country" required>
+        <option value>select the language</option>
+        <option value="Tamil">Tamil</option>
+        <option value="English">English</option>
+        <option value="Malayalam">Malayalam</option>
+        <option value="Kannada">Kannada</option>
+        <option value="Telugu">Telugu</option>
+    </select><br><br>
+    <label for="postel">Zip Code:</label>
+    <input type="number" placeholder="postel code" size="30"><br><br>
+
+    <label for="text">About:</label>
+    <textarea placeholder="Write About yourself..."size="30">
+    </textarea><br><br>
+    <button>submit</button>
+    </form>
+</fieldset>
+</body>
+</html>
